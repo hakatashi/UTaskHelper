@@ -37,4 +37,5 @@ Icon
 
 # Chrome extension
 *.crx
+*.zip
 key.pem
