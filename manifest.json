@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "UTask Helper",
+	"version": "1",
+
+	"default_locale": "ja",
+	"description": "Gogole Chrome extension only for making it easy-peasy-lemon-squeezy to log in to UTask.",
+	"icons": {
+		"128": "icon128.png"
+	},
+
+	"author": "hakatashi",
+	"background": {
+		"scripts": [
+			"helper.js"
+		],
+		"persistent": false
+	},
+	"permissions": [
+		"http://www.c.u-tokyo.ac.jp/*"
+	]
+}
